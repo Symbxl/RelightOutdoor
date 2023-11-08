@@ -101,12 +101,14 @@ const Container = styled.section`
   @media (max-width: 600px) {
     align-items: flex-start;
   }
+  margin: 1rem 0;
 `;
 
 const FormControl = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+  align-self: center;
 `;
 
 const Label = styled.label`
@@ -118,7 +120,7 @@ const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 900px;
+  max-width: 850px;
   width: 90%;
   margin: 0;
   background-color: #ffffff;

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 interface Service {
-  number: any;
+  number: JSX.Element | number;
   title: string;
   desc: string;
 }
