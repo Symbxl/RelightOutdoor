@@ -21,7 +21,7 @@ const Section = styled.section`
   align-items: center;
 `
 const Container = styled.div`
-  height: auto;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,10 +30,10 @@ const Container = styled.div`
 
 const Title = styled.h2`
   font-size: 40px;
-  max-width: 480px;
+  max-width: 470px;
 `
 
 const Description = styled.p`
   font-size: 20px;
-  max-width: 480px;
+  max-width: 470px;
 `
