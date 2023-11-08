@@ -48,8 +48,5 @@ const Description = styled.h3`
 const Image = styled.img`
   height: 400px;
   width: 500px;
-  ${media} {
-    display: none;
-  }
 `;
 
