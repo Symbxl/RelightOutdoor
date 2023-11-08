@@ -15,8 +15,8 @@ const DisplayServices = () => {
     { number: 3, title: "Step One: Enjoy you're lights", desc: "Enjoy your home shining year round! Any season, any holiday, any occasion. Merry Christmas from ReLight Outdoor Lighting!" }
   ]
   return (<Container>
-    <ServicesCard services={service} />
     <ServicesCard services={services} />
+    <ServicesCard services={service} />
   </Container>);
 }
 
