@@ -25,6 +25,7 @@ const Container = styled.div`
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;  
   background-color: #ffffff;
+  border-radius: 5px;
   `
 
 const ChildContainer = styled.div`

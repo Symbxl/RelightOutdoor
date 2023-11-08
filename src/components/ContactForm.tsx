@@ -4,7 +4,7 @@ import styled from "styled-components"
 interface FormData {
   name: string;
   email: string;
-  budget: string;
+  number: string;
   referral: string;
   message: string;
 }
@@ -14,6 +14,7 @@ const ContactForm = () => {
 
   const onSubmit = (data: FormData) => {
     console.log(data)
+    alert("thank you! We will be contacting shortly!")
   };
 
   return <Container>
@@ -41,19 +42,19 @@ const ContactForm = () => {
           />
         </FormControl>
         <FormControl>
-          <Label htmlFor="budget">Project Budget</Label>
+          <Label htmlFor="number">Phone Number</Label>
           <Controller
-            name="budget"
+            name="number"
             control={control}
             defaultValue=""
             rules={{ required: true }}
             render={({ field }) => (
-              <Input {...field} type="text" placeholder="Project Budget" id="budget" />
+              <Input {...field} type="text" placeholder="Phone Number" id="phone" />
             )}
           />
         </FormControl>
         <FormControl>
-          <Label htmlFor="referral">How did you hear about me?</Label>
+          <Label htmlFor="referral">How did you hear about us?</Label>
           <Controller
             name="referral"
             control={control}
@@ -190,11 +191,11 @@ const TextArea = styled.textarea`
 `;
 
 const SubmitButton = styled.button`
-  width: 400px;
+  width: 380px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #000000;
+  background-color: black;
   align-self: start;
   color: #ffffff;
   font-size: 16px;
