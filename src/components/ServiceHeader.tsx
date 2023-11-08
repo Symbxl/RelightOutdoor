@@ -26,7 +26,7 @@ const Section = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 45vh;
 `;
 
 const Container = styled.div`
