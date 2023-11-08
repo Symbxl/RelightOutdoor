@@ -50,6 +50,7 @@ const Logo = styled.img`
 const Link = styled(link)`
 text-decoration: none;
 padding: 0.2rem;
+color: black;
 `
 const media = "@media(max-width: 1100px)"
 

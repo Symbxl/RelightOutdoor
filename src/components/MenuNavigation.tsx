@@ -16,10 +16,12 @@ const MenuNavigation = () => {
   font-size: 15px;
   padding: 1.2rem 0;
   margin: 0.5rem;
+  color: black;
 `
   return (
     <Container>
       <LinkColor to="/"><Logo src="https://i.imgur.com/vho5H8q.png" /> </LinkColor>
+      <LinkColor to="/contact">425-999-9999</LinkColor>
       <Span>
         <Button padding="10px 20px">Contact</Button>
         <Menu onClick={handleClick} />
