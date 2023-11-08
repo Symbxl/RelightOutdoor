@@ -18,10 +18,10 @@ export default ServiceHeader;
 const Section = styled.section`
   display: flex;
   justify-content: center;
+  align-items: center;
 `
 const Container = styled.div`
-  height: 45vh;
-  width: 480px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,9 +30,10 @@ const Container = styled.div`
 
 const Title = styled.h2`
   font-size: 40px;
+  max-width: 480px;
 `
 
 const Description = styled.p`
   font-size: 20px;
-  
+  max-width: 480px;
 `
