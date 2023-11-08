@@ -17,9 +17,9 @@ const slideIn = keyframes`
 
 const Image = styled.img`
   border-radius: 5px;
-  height: 400px;
-  width: 300px;
-  margin: 1rem;
+  height: 500px;
+  width: 400px;
+  margin: 0.5rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   animation: ${slideIn} 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; /* Smoother cubic-bezier easing */
 `;
