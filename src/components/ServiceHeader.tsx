@@ -35,5 +35,5 @@ const Title = styled.h2`
 
 const Description = styled.p`
   font-size: 20px;
-  max-width: 470px;
+  max-width: 480px;
 `
