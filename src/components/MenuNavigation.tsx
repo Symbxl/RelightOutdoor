@@ -13,10 +13,11 @@ const MenuNavigation = () => {
 
   const LinkColor = styled(Link)`
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   padding: 1.2rem 0;
   margin: 0.5rem;
   color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
   return (
     <Container>
@@ -28,7 +29,7 @@ const MenuNavigation = () => {
       </Span>
       <Modal isOpen={isOpen} handleClose={handleClose}>
         <ContainerTwo>
-          <LinkColor to="/">Home</LinkColor>
+          <LinkColor to="/" onClick={handleClick}>Home</LinkColor>
           <LinkColor to="/services">Services</LinkColor>
           <LinkColor to="/animations">Animations</LinkColor>
           <LinkColor to="/gallery">Gallery</LinkColor>

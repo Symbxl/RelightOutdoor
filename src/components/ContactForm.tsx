@@ -191,7 +191,7 @@ const TextArea = styled.textarea`
 `;
 
 const SubmitButton = styled.button`
-  width: 380px;
+  width: 360px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
