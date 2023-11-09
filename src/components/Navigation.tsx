@@ -29,7 +29,7 @@ const Item = styled.li`
 `
 
 const Container = styled.span`
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   align-items: center;
 `

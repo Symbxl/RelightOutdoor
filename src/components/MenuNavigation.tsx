@@ -22,7 +22,7 @@ const MenuNavigation = () => {
   return (
     <Container>
       <LinkColor to="/"><Logo src="https://i.imgur.com/vho5H8q.png" /> </LinkColor>
-      <LinkColor to="/contact">425-999-9999</LinkColor>
+      <LinkColor to="/contact">(825)-973-7707</LinkColor>
       <Span>
         <Button padding="10px 20px">Contact</Button>
         <Menu onClick={handleClick} />
@@ -49,7 +49,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 10vh;
+  min-height: 10vh;
   position: sticky;
   top: 0;
   background-color: #ffffff;
@@ -63,7 +63,7 @@ const Logo = styled.img`
   height: 50px;
   width: 50px;
   border-radius: 10px;
-  margin: 1rem;
+  margin-left: 1rem;
 `
 
 

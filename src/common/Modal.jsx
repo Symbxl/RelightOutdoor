@@ -3,7 +3,7 @@ const Modal = ({ isOpen, children, handleClose }: any) => {
 
   return (<>
     {isOpen && (
-      <Container>
+      <Container onClick={handleClose}>
         <Close onClick={handleClose}>x</Close>
         <ChildContainer>
           {children}
