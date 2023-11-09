@@ -37,12 +37,12 @@ const Container = styled.div`
 `;
 
 const Title = styled.h2`
-  font-weight: 500;
+  font-weight: 700;
   color: #007FFF;
 `;
 
 const Description = styled.h3`
-  font-weight: 300;
+  font-weight: 400;
 `;
 
 const Image = styled.img`
