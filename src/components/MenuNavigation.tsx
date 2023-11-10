@@ -22,7 +22,7 @@ const MenuNavigation = () => {
   return (
     <Container>
       <LinkColor to="/"><Logo src="https://i.imgur.com/vho5H8q.png" /> </LinkColor>
-      <LinkColor to="/contact">(825)-973-7707</LinkColor>
+      <LinkColor to="/contact">(825) 973-7707</LinkColor>
       <Span>
         <Button padding="10px 20px">Contact</Button>
         <Menu onClick={handleClick} />

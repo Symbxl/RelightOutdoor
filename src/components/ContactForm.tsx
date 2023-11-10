@@ -12,9 +12,32 @@ interface FormData {
 const ContactForm = () => {
   const { handleSubmit, control } = useForm<FormData>();
 
-  const onSubmit = (data: FormData) => {
-    console.log(data)
-    alert("thank you! We will be contacting shortly!")
+
+  const api = "https://decisive-balance-1f853ee862.strapiapp.com/api/contacts"
+
+  const onSubmit = async (data: FormData) => {
+    try {
+      const response = await fetch(api, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          "data": data
+        }),
+      });
+
+      if (response.ok) {
+        console.log("Data submitted successfully");
+        alert("Thank you! We will be contacting you shortly!");
+      } else {
+        console.error("Failed to submit data");
+        alert("Submission failed. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error submitting data:", error);
+      alert("An error occurred while submitting. Please try again later.");
+    }
   };
 
   return <Container>

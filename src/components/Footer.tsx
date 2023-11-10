@@ -23,7 +23,7 @@ const Footer = () => {
     <FooterContainer>
       <h2>Contact Us</h2>
       <ContactInfo>
-        <PhoneNumber>Phone: (825)-973-7707</PhoneNumber>
+        <PhoneNumber>Phone: (825) 973-7707</PhoneNumber>
         <Email>Email: admin@relightgp.ca</Email>
       </ContactInfo>
     </FooterContainer>

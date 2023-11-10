@@ -14,7 +14,7 @@ const MainNavigation = () => {
         <Item><Link to="/contact">Contact</Link></Item>
       </Container>
       <RightContainer>
-        <Item>425-999-9999</Item>
+        <Item>(825) 973-7707</Item>
         <Button padding="10px 23px">Contact</Button>
       </RightContainer>
     </List>
