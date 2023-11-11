@@ -19,7 +19,7 @@ const Container = styled.div`
   position: absolute;
   top: 0px;
   right: 0px;
-  height: 575px;
+  height: 475px;
   width: 350px;
   display: flex;
   flex-direction: column;

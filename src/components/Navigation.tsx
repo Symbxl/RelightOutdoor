@@ -9,7 +9,6 @@ const MainNavigation = () => {
       <Container>
         <Item><Link to="/"> Home</Link></Item>
         <Item><Link to="/services">Services</Link></Item>
-        <Item><Link to="/animations">Animations</Link></Item>
         <Item><Link to="/gallery">Gallery</Link></Item>
         <Item><Link to="/contact">Contact</Link></Item>
       </Container>

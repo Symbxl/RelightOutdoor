@@ -5,7 +5,7 @@ interface FormData {
   name: string;
   email: string;
   number: string;
-  referral: string;
+  address: string;
   message: string;
 }
 
@@ -50,7 +50,7 @@ const ContactForm = () => {
             control={control}
             defaultValue=""
             rules={{ required: true }}
-            render={({ field }) => <Input {...field} type="text" placeholder="Name" id="name" />}
+            render={({ field }) => <Input {...field} type="text" placeholder="Name" id="referral" />}
           />
         </FormControl>
         <FormControl>
@@ -76,25 +76,17 @@ const ContactForm = () => {
           />
         </FormControl>
         <FormControl>
-          <Label htmlFor="referral">How did you hear about us?</Label>
+          <Label htmlFor="address">Quote Address</Label>
           <Controller
-            name="referral"
+            name="address"
             control={control}
             defaultValue=""
             rules={{ required: true }}
             render={({ field }) => (
-              <Select {...field} id="referral">
-                <Option disabled value="">
-                  Select Social Media
-                </Option>
-                <Option>Instagram</Option>
-                <Option>Twitter</Option>
-                <Option>Threads</Option>
-                <Option>Facebook</Option>
-                <Option>Other</Option>
-              </Select>
+              <Input {...field} type="text" placeholder="Address" id="address" />
             )}
           />
+
         </FormControl>
         <FormControl>
           <Label htmlFor="message">Message</Label>

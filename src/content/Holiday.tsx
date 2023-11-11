@@ -1,7 +1,7 @@
 import GalleryCard from "../components/GalleryCard";
 import styled from "@emotion/styled";
 
-const Animations = () => {
+const Holiday = () => {
   return (<Container>
     {itemData.map(item => {
       return (
@@ -11,7 +11,7 @@ const Animations = () => {
   </Container>);
 }
 
-export default Animations;
+export default Holiday;
 
 const Container = styled.section`
   display: flex;

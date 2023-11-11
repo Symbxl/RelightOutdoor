@@ -3,7 +3,7 @@ import RootLayout from "../layout/RootLayout";
 import ErrorPage from "../pages/ErrorPage";
 import HomePage from "../pages/HomePage";
 import GalleryPage from "../pages/GalleryPage";
-import AnimationsPage from "../pages/AnimationsPage";
+import HolidayPage from "../pages/HolidayPage";
 import ServicesPage from "../pages/ServicesPage";
 import ContactPage from "../pages/ContactPage";
 
@@ -16,7 +16,7 @@ export const config = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "/services", element: <ServicesPage /> },
       { path: "/gallery", element: <GalleryPage /> },
-      { path: "/animations", element: <AnimationsPage /> },
+      { path: "/holiday", element: <HolidayPage /> },
       { path: "/contact", element: <ContactPage /> },
     ],
   },

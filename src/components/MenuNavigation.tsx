@@ -38,7 +38,6 @@ padding: 0 2rem;
           <Color>Relight Outdoor Lighting</Color>
           <LinkColor to="/" onClick={handleClick}>Home</LinkColor>
           <LinkColor to="/services">Services</LinkColor>
-          <LinkColor to="/animations">Animations</LinkColor>
           <LinkColor to="/gallery">Gallery</LinkColor>
           <LinkColor to="/contact">Contact</LinkColor>
         </ContainerTwo>
