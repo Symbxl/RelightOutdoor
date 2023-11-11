@@ -20,6 +20,13 @@ const Container = styled.section`
   flex-wrap: wrap;
 `
 
-
-const itemData = ['https://pbs.twimg.com/media/F9YcEWOWYAEZ-Ah?format=jpg&name=4096x4096',
-  'https://pbs.twimg.com/media/F9YcErsWoAA8Z74?format=jpg&name=4096x4096', 'https://pbs.twimg.com/media/F9U6poxbQAADl63?format=jpg&name=medium', 'https://pbs.twimg.com/media/F79AaKXWwAAZm3m?format=jpg&name=large'];
+const itemData = [
+  "https://i.imgur.io/dAHWvFV_d.webp?maxwidth=640&shape=thumb&fidelity=medium",
+  "https://i.imgur.io/qQ5wL5q_d.webp?maxwidth=640&shape=thumb&fidelity=medium",
+  "https://i.imgur.io/CzUh3qv_d.webp?maxwidth=640&shape=thumb&fidelity=medium",
+  "https://i.imgur.io/Gj5lr29_d.webp?maxwidth=640&shape=thumb&fidelity=medium",
+  "https://i.imgur.io/G1dmo8o_d.webp?maxwidth=640&shape=thumb&fidelity=medium",
+  "https://i.imgur.com/HWgEPiz.jpg",
+  "https://i.imgur.com/ngZ3Nii.jpg",
+  "https://i.imgur.com/1TTRyCj.jpg"
+];
