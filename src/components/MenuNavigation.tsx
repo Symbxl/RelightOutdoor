@@ -19,6 +19,12 @@ const MenuNavigation = () => {
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
+
+  const Color = styled.h3`
+color: #007bff;
+padding: 0 2rem;
+`
+
   return (
     <Container>
       <LinkColor to="/"><Logo src="https://i.imgur.com/vho5H8q.png" /> </LinkColor>
@@ -29,6 +35,7 @@ const MenuNavigation = () => {
       </Span>
       <Modal isOpen={isOpen} handleClose={handleClose}>
         <ContainerTwo>
+          <Color>Relight Outdoor Lighting</Color>
           <LinkColor to="/" onClick={handleClick}>Home</LinkColor>
           <LinkColor to="/services">Services</LinkColor>
           <LinkColor to="/animations">Animations</LinkColor>

@@ -19,14 +19,13 @@ const Container = styled.div`
   position: absolute;
   top: 0px;
   right: 0px;
-  height: 500px;
+  height: 575px;
   width: 350px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;  
-  background-color: #ffffff;
-  border-radius: 5px;
-  `
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  `
 
 const ChildContainer = styled.div`
   padding: 2rem;
