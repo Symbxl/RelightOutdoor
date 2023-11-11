@@ -1,17 +1,23 @@
+import React from 'react';
 import styled from 'styled-components';
 
 const SectionOne = () => {
+  const videoId = 'AtptIYsujRg';
 
   return (
     <VideoContainer>
-      <Video controls>
-        <source type="video/youtube" src="https://www.youtube.com/watch?v=AtptIYsujRg" />
-      </Video>
+      <Video
+        title="YouTube video player"
+        width="100%"
+        height="100%"
+        src={`https://www.youtube.com/embed/${videoId}`}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></Video>
     </VideoContainer>
   );
 };
-
-export default SectionOne;
 
 const VideoContainer = styled.div`
   position: relative;
@@ -20,8 +26,9 @@ const VideoContainer = styled.div`
   overflow: hidden;
 `;
 
-
-const Video = styled.video`
+const Video = styled.iframe`
   width: 100%;
   height: 100%;
 `;
+
+export default SectionOne;

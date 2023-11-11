@@ -26,7 +26,6 @@ const ContactForm = () => {
           "data": data
         }),
       });
-
       if (response.ok) {
         console.log("Data submitted successfully");
         alert("Thank you! We will be contacting you shortly!");
