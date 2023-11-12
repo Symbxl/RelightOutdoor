@@ -6,7 +6,7 @@ const DisplayServices = () => {
   const service = [
     { number: <PiHeadsetBold />, title: "24/7 Support", desc: "ReLight Outdoor Lighting works with a team of professionals to ensure full customer support. If you experience any issues with our product please contact us via phone or email for assistance." },
     { number: <AiFillRocket />, title: "Quick delivery", desc: "ReLight Outdoor Lighting has a dedicated service team in Grande Prairie. Our team is trained to provide professional installation on the same service day." },
-    { number: <AiOutlineTool />, title: "Warenty Protection Included", desc: "ReLight’s Lighting manufacturer provides a 3 year product warranty. The technology on our lights provide a 5-10 year lifetime." }
+    { number: <AiOutlineTool />, title: "Warranty Protection Included", desc: "ReLight’s Lighting manufacturer provides a 3 year product warranty. The technology on our lights provide a 5-10 year lifetime." }
   ]
 
   const services = [
