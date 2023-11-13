@@ -23,7 +23,8 @@ const Section = styled.section`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  transition: all 0.3s ease; /* Add transition property here */
+  transition: all 0.3s ease; 
+  margin-top: 1rem;
 `;
 
 const Container = styled.div`
@@ -37,12 +38,14 @@ const Container = styled.div`
 `;
 
 const Title = styled.h2`
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 26px;
   color: #007FFF;
 `;
 
 const Description = styled.h3`
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 20px;
 `;
 
 const Image = styled.img`

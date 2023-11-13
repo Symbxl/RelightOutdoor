@@ -1,11 +1,14 @@
 import { styled } from "styled-components";
 import Card from "../components/Card";
 
-const SectionThree = () => {
-  const items = ["https://pbs.twimg.com/media/F-A9gwkXcAABZlu?format=jpg&name=4096x4096", "https://pbs.twimg.com/media/F-A9hPrXsAA_ucm?format=jpg&name=4096x4096", "https://pbs.twimg.com/media/F-A9hjyWYAA9iO_?format=jpg&name=4096x4096"]
+interface Props {
+  props: string[]
+}
+
+const SectionThree = ({ props }: Props) => {
 
   return (<Container>
-    <Card items={items} />
+    <Card items={props} />
   </Container>);
 }
 
