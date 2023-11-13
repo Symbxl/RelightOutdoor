@@ -46,6 +46,7 @@ const Title = styled.h2`
 const Description = styled.h3`
   font-weight: 500;
   font-size: 20px;
+  margin-left: 0.5rem;
 `;
 
 const Image = styled.img`
