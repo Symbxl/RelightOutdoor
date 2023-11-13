@@ -12,7 +12,7 @@ const DisplayServices = () => {
   const services = [
     { number: 1, title: "Step One: Request a quote", desc: "Our team offers fast, visit free quotes. Please reach out via the contact form providing your name, address, and phone number. Our team will get back to you quick with a quote as well as potential service dates." },
     { number: 2, title: "Step Two: Receive an estimate", desc: "Our team will do on online quote (via Google Earth) and get back to you with a price as well as potential servicing dates." },
-    { number: 3, title: "Step One: Enjoy you're lights", desc: "Enjoy your home shining year round! Any season, any holiday, any occasion. Merry Christmas from ReLight Outdoor Lighting!" }
+    { number: 3, title: "Step Three: Enjoy you're lights", desc: "Enjoy your home shining year round! Any season, any holiday, any occasion. Merry Christmas from ReLight Outdoor Lighting!" }
   ]
   return (<Container>
     <ServicesCard services={services} />
