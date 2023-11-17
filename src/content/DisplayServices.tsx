@@ -2,6 +2,7 @@ import ServicesCard from "../components/ServicesCard";
 import styled from "@emotion/styled";
 import { PiHeadsetBold } from "react-icons/pi"
 import { AiFillRocket, AiOutlineTool } from "react-icons/ai"
+
 const DisplayServices = () => {
   const service = [
     { number: <PiHeadsetBold />, title: "24/7 Support", desc: "ReLight Outdoor Lighting works with a team of professionals to ensure full customer support. If you experience any issues with our product please contact us via phone or email for assistance." },
