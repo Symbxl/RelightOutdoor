@@ -50,6 +50,7 @@ const Link = styled(link)`
 text-decoration: none;
 padding: 0.2rem;
 color: black;
+
 `
 const media = "@media(max-width: 1100px)"
 
@@ -58,6 +59,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 list-style: none;
+
 ${media} {
   display: none;
 }

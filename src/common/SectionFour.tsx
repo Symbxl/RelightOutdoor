@@ -1,13 +1,21 @@
 import { styled } from "styled-components";
 
-const SectionFour = () => {
+interface Props {
+  title: string;
+  description: string;
+  image: string;
+  left: boolean;
+  right: boolean;
+}
+const SectionFour = ({ title, description, image, left, right }: Props) => {
   return (
     <Section>
+      {left && <Image src={image} />}
       <Container>
-        <Title>Fast & Easy App!</Title>
-        <Description>Simply slide your fingertip on the color wheel to update the lighting. With 16 million colors and 50,000 shades of white, it gives you a chance to create fabulous home lighting for whether illuminating or entertainment. Match diverse occasions via multiple Scenes and Music Mode.</Description>
+        <Title>{title}</Title>
+        <Description>{description}</Description>
       </Container>
-      <Image src="https://i.imgur.com/YrFp7wG.png" />
+      {right && <Image src={image} />}
     </Section>
   );
 }
@@ -38,19 +46,19 @@ const Container = styled.div`
 `;
 
 const Title = styled.h2`
-  font-weight: 800;
-  font-size: 26px;
-  color: #007FFF;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000000;
 `;
 
 const Description = styled.h3`
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 22px;
   margin-left: 0.5rem;
 `;
 
 const Image = styled.img`
-  height: 400px;
-  width: 500px;
+  height: 500px;
+  width: 425px;
 `;
 

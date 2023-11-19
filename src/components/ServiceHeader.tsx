@@ -13,7 +13,7 @@ const ServiceHeader = () => {
           app, or if you just have any general questions, we are here to help.
         </Description>
         <ButtonWrapper>
-          <Button height="40px">Request a Quote</Button>
+          <Button height="45px" width="150px">Request a Quote</Button>
         </ButtonWrapper>
       </Container>
     </Section>
@@ -26,7 +26,7 @@ const Section = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 35vh;
+  min-height: 40vh;
 `
 
 const Container = styled.div`
@@ -36,12 +36,12 @@ const Container = styled.div`
 `;
 
 const Title = styled.h2`
-  font-size: 32px;
+  font-size: 50px;
   margin-bottom: 20px;
 `;
 
 const Description = styled.p`
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 30px;
 `;
 
