@@ -11,7 +11,6 @@ const HomePage = () => {
     <SectionTwo />
     <SectionFour title="Fast & Easy App!" description="Simply slide your fingertip on the color wheel to update the lighting. With 16 million colors and 50,000 shades of white, it gives you a chance to create fabulous home lighting for whether illuminating or entertainment. Match diverse occasions via multiple Scenes and Music Mode." image="https://i.imgur.com/lUCYEuW.jpg" left={true} right={false} />
     <SectionFour title="Timer Function" description="With our timer function, you can add your lights to your daily routine. Program your LED lights to power on/off automatically via the Govee Home App. With your very own lighting schedule, you'll always return to a brightly-lit home." image="https://cdn.shopify.com/s/files/1/0556/4203/0246/files/H6172-P-6.jpg?v=1646790742" left={false} right={true} />
-    <SectionFour title="Advanced App Features" description="Enjoy Advanced App Features with our Smart App! (all while making the neighbors extremely jealous)" image="https://ca.govee.com/cdn/shop/products/H705A-PP-06_1400x.jpg?v=1689083055" left={true} right={false} />
     <DisplayServices />
     <Table />
     <SectionThree props={["https://i.imgur.com/Fqs64mt.png", "https://i.imgur.com/XhSZJzX.png"]} />
