@@ -40,21 +40,7 @@ const ProductTable = () => {
       lumens: '26 Lumen',
       appConnectivity: '2.4GHz Wi-Fi + Bluetooth',
       specialFeatures: 'Energy Efficient, Dimmable, Waterproof, Color Changing, Water Resistant',
-    },
-    {
-      model: 'H6172',
-      title: 'Govee RGBIC LED STRIP LIGHTS',
-      colors: 'RGBIC',
-      length: '32.8ft',
-      controlMethods: 'APP Control',
-      voiceControl: 'No',
-      waterproof: 'IP65',
-      voltage: '24V',
-      wattage: '36W',
-      lumens: '150 Lumen/M',
-      appConnectivity: '2.4GHz Wi-Fi + Bluetooth',
-      specialFeatures: 'Corded, Waterproof',
-    },
+    }
   ];
 
 
