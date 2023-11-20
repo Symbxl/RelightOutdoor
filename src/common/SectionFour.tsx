@@ -42,14 +42,14 @@ const ContentContainer = styled.div`
 
 const Title = styled.h2`
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #ffffff; /* Adjust the color as needed */
   margin-bottom: 1rem;
 `;
 
 const Description = styled.p`
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #ffffff; /* Adjust the color as needed */
   text-align: center;
 `;

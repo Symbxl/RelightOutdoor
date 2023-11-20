@@ -36,12 +36,12 @@ const ContentContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 `;
 
 const Description = styled.p`
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #d2d2d2;
 `;
 
