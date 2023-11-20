@@ -7,10 +7,7 @@ const Header = () => {
     <Head>
       <Container>
         <Title>Lighting Up Grande Prairie, all year long.</Title>
-        <Description>
-          Make your neighbor jealous and put a smile on your face every time you
-          leave the driveway. Request a quote and light up your home today!
-        </Description>
+        <Description>Light up your families faces, after we light up your home the ReLight way. Request a quote and light up your home today!</Description>
         <Button height="50px" width="150px">
           Request Quote
         </Button>
