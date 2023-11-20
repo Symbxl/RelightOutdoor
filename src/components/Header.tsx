@@ -27,6 +27,10 @@ const Image = styled.img`
   max-width: 525px;
   height: auto;
   margin: 1rem;
+  transition: transform 0.3s ease; /* Add transition effect */
+  &:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
 `;
 
 const Head = styled.header`
