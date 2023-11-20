@@ -25,7 +25,7 @@ const Section = styled.section`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 1rem;
 `;

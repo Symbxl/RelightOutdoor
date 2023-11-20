@@ -38,7 +38,6 @@ const ContentContainer = styled.div`
   justify-content: center;
   max-width: 500px;
   width: 100%;
-  margin: 2rem;
 `;
 
 const Title = styled.h2`
