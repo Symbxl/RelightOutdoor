@@ -37,7 +37,6 @@ const Section = styled.section`
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1rem;
   text-align: center; /* Center text content */
   animation: ${fadeIn} 1s ease; /* Apply fade-in animation */
 `;
