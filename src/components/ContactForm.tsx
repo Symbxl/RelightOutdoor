@@ -123,6 +123,7 @@ const Title = styled.h2`
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+  color: black;
 `;
 
 const FormSection = styled.div`
@@ -137,6 +138,7 @@ const FormControl = styled.div`
 const Label = styled.label`
   font-size: 14px;
   margin-bottom: 8px;
+  color: black;
 `;
 
 const Input = styled.input`

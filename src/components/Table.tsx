@@ -13,8 +13,8 @@ const Table = styled.table`
 `;
 
 const Th = styled.th`
-  background-color: #007bff;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
   padding: 15px;
   text-align: left;
 `;

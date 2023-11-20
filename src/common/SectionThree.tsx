@@ -1,6 +1,5 @@
 import { styled } from "styled-components";
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
 interface Props {
   props: string[]
 }
@@ -9,7 +8,6 @@ const SectionThree = ({ props }: Props) => {
 
   return (<Container>
     <Card items={props} />
-    <Link to="gallery">view more photos</Link>
   </Container>);
 }
 
@@ -19,7 +17,7 @@ const Container = styled.section`
   height: auto;
   width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;

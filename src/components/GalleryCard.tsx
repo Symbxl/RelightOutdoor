@@ -10,10 +10,9 @@ const Image = styled.img`
 
 const GalleryCard = ({ items }: any) => {
   return (
-    <>
-      <Image src={items} />
-    </>
+    <Image src={items} />
   );
 };
 
 export default GalleryCard
+

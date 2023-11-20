@@ -16,19 +16,26 @@ const MenuNavigation = () => {
   font-size: 17px;
   padding: 1.2rem 0;
   margin: 0.5rem;
-  color: black;
+  color: #000000;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
 
   const Color = styled.h3`
-color: #007bff;
+color: #000000;
 padding: 0 2rem;
 `
 
+  const Phone = styled.p`
+    font-size: 17px;
+  padding: 1.2rem 0;
+  margin: 0.5rem;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+`
   return (
     <Container>
-      <LinkColor to="/"><Logo src="https://i.imgur.com/vho5H8q.png" /> </LinkColor>
-      <LinkColor to="/contact">(825) 973-7707</LinkColor>
+      <LinkColor to="/"><Logo src="https://i.imgur.com/Xy8Ho9R.png" /> </LinkColor>
+      <Phone>(825) 973-7707</Phone>
       <Span>
         <Button padding="10px 20px">Contact</Button>
         <Menu onClick={handleClick} />
@@ -56,20 +63,21 @@ const Container = styled.div`
   align-items: center;
   width: 100vw;
   min-height: 10vh;
-  position: sticky;
-  top: 0;
-  background-color: #ffffff;
-  z-index: 1;
+  color:#101418;
+  border: 1px solid #101418;
+  border-radius: 5px;
   ${media} {
     display: none;
   }
 `
 
 const Logo = styled.img`
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   border-radius: 10px;
   margin-left: 1rem;
+  background-color: white;
+  padding: 0.5rem;
 `
 
 
@@ -87,4 +95,5 @@ const Span = styled.span`
 const Menu = styled(HiOutlineMenu)`
   font-size: 25px;
   margin: 1rem;
+  color: white;
 `

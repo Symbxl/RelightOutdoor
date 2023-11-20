@@ -15,9 +15,8 @@ const StyledButton = styled.button<Props>`
   height: ${(props) => props.height};
   padding: ${(props) => props.padding};
   margin: ${(props) => props.margin};
-  color: white;
-  background-color: #007fff;
-  border: none;
+  color:#101418;
+  border: 1px solid #101418;
   border-radius: 5px;
 `;
 

@@ -44,7 +44,7 @@ const NumberCircle = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #007bff;
+  background-color: #000000;
   color: #fff;
   font-size: 20px;
   display: flex;

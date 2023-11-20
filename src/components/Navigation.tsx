@@ -5,7 +5,7 @@ import styled from "styled-components"
 const MainNavigation = () => {
   return (
     <List>
-      <Item><LinkColor to="/"> <Logo src="https://i.imgur.com/KUEzFqL.png" /></LinkColor></Item>
+      <Item><LinkColor to="/"> <Logo src="https://i.imgur.com/Xy8Ho9R.png" /></LinkColor></Item>
       <Container>
         <Item><Link to="/"> Home</Link></Item>
         <Item><Link to="/services">Services</Link></Item>
@@ -44,12 +44,14 @@ const Logo = styled.img`
   height: 50px;
   width: 50px;
   border-radius: 10px;
+  background-color: white;
+  padding: 0.5rem;
 `
 
 const Link = styled(link)`
 text-decoration: none;
 padding: 0.2rem;
-color: black;
+color: white;
 
 `
 const media = "@media(max-width: 1100px)"
@@ -63,11 +65,7 @@ list-style: none;
 ${media} {
   display: none;
 }
-
-position: sticky;
-top: 0;
-background-color: #ffffffe1;
-z-index: 1;
+background-color:#101418;
 `
 const LinkColor = styled(Link)`
 font-size: 22px;
