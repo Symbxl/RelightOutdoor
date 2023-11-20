@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 interface Props {
   image: string;
@@ -20,19 +20,31 @@ const SectionSix = ({ image, title, description }: Props) => {
 
 export default SectionSix;
 
+// Animation keyframes
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
 const Section = styled.section`
   min-height: 60vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin: 1rem;
+  text-align: center; /* Center text content */
+  animation: ${fadeIn} 1s ease; /* Apply fade-in animation */
 `;
 
 const ContentContainer = styled.div`
   max-width: 600px;
-  text-align: center;
+  width: 100%;
   margin-top: 1rem;
 `;
 
@@ -61,12 +73,9 @@ const mediaQuery = `@media (max-width: ${mobileBreakpoint}) {
   ${Section} {
     align-items: center;
   }
-  ${ContentContainer} {
-    max-width: 100%;
-  }
 }`;
 
-// Apply media query
+// Apply media query and animations
 const StyledSectionSix = styled(SectionSix)`
   ${mediaQuery}
 `;
