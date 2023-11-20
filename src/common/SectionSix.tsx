@@ -25,7 +25,7 @@ const Section = styled.section`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 1rem;
 `;
@@ -52,3 +52,19 @@ const Image = styled.img`
   border-radius: 8px; // Add border-radius for rounded corners
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Add a subtle box shadow
 `;
+
+// Media query for mobile devices
+const mobileBreakpoint = "768px";
+
+const mediaQuery = `@media (max-width: ${mobileBreakpoint}) {
+  ${Section} {
+    align-items: center;
+  }
+}`;
+
+// Apply media query
+const StyledSectionSix = styled(SectionSix)`
+  ${mediaQuery}
+`;
+
+export { StyledSectionSix };
