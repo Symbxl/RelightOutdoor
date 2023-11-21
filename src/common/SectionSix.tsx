@@ -70,7 +70,7 @@ const mobileBreakpoint = "768px";
 
 const mediaQuery = `@media (max-width: ${mobileBreakpoint}) {
   ${Section} {
-    align-items: center;
+    justify-content: center;
   }
 }`;
 

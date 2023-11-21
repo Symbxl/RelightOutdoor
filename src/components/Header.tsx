@@ -20,8 +20,8 @@ const Header = () => {
 export default Header;
 
 const Image = styled.img`
-  width: 500px;
-  max-width: 475px;
+  width: 100%;
+  max-width: 450px;
   height: auto;
   transition: transform 0.3s ease; /* Add transition effect */
   &:hover {
