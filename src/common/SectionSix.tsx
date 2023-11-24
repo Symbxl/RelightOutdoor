@@ -43,7 +43,8 @@ const Section = styled.section`
 
 const ContentContainer = styled.div`
   max-width: 600px;
-  width: 100%;
+  width: 80%; /* Adjusted width for better mobile alignment */
+  margin: 0 auto; /* Center the content on mobile */
   margin-top: 1rem;
 `;
 
@@ -54,7 +55,6 @@ const Title = styled.h2`
 
 const Description = styled.p`
   font-size: 1rem;
-  color: #d2d2d2;
 `;
 
 const Image = styled.img`
@@ -69,8 +69,8 @@ const Image = styled.img`
 const mobileBreakpoint = "768px";
 
 const mediaQuery = `@media (max-width: ${mobileBreakpoint}) {
-  ${Section} {
-    justify-content: center;
+  ${ContentContainer} {
+    width: 90%; /* Adjusted width for better mobile alignment */
   }
 }`;
 
