@@ -4,6 +4,7 @@ import ErrorPage from "../pages/ErrorPage";
 import HomePage from "../pages/HomePage";
 import GalleryPage from "../pages/GalleryPage";
 import HolidayPage from "../pages/HolidayPage";
+import PricingPage from "../pages/PricingPage";
 import ServicesPage from "../pages/ServicesPage";
 import ContactPage from "../pages/ContactPage";
 
@@ -17,6 +18,7 @@ export const config = createBrowserRouter([
       { path: "/services", element: <ServicesPage /> },
       { path: "/gallery", element: <GalleryPage /> },
       { path: "/holiday", element: <HolidayPage /> },
+      { path: "/pricing", element: <PricingPage /> },
       { path: "/contact", element: <ContactPage /> },
     ],
   },

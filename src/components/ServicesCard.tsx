@@ -1,5 +1,4 @@
-import React from 'react';
-import styled from '@emotion/styled';
+import styled from "styled-components";
 
 interface Service {
   number: JSX.Element | number;
@@ -26,43 +25,51 @@ const ServicesCard = ({ services }: Props) => {
 };
 
 const CardContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
-  max-width: 270px;
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
+  height: 100%;
+  background-color: #101418;
 `;
 
 const ServiceItem = styled.div`
-  margin-bottom: 20px;
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 600px;
+  height: 100%;
 `;
 
 const NumberCircle = styled.div`
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: #000000;
-  color: #fff;
-  font-size: 20px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
 const Title = styled.h3`
   margin: 0;
   font-size: 20px;
-  color: #333;
+  color: #b7b7b7;
+  font-weight: bold;
 `;
 
 const Description = styled.p`
-  margin: 1rem;
+  margin: 0;
   font-size: 14px;
-  color: #555;
+  color: #b7b7b7;
+  margin-top: 3px;
 `;
 
 export default ServicesCard;

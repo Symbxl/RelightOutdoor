@@ -89,8 +89,8 @@ const ContactForm = () => {
               name="message"
               control={control}
               defaultValue=""
-              rules={{ required: true }}
-              render={({ field }) => <TextArea {...field} placeholder="Message" />}
+              rules={{ required: false }}
+              render={({ field }) => <TextArea {...field} placeholder="Message (Optional)" />}
             />
           </FormControl>
         </FormSection>

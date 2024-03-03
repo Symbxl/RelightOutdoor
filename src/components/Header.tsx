@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import Button from "../common/Button";
-import FooterOne from "./FooterOne";
 
 const Header = () => {
   return (
@@ -75,7 +74,3 @@ const mediaQuery = `@media (max-width: ${mobileBreakpoint}) {
   ${responsiveStyles}
 }`;
 
-// Apply responsive styles
-const ResponsiveContainer = styled(Container)`
-  ${mediaQuery}
-`;

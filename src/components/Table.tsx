@@ -1,29 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-
-const TableContainer = styled.div`
-  overflow-x: auto;
-  margin: 20px;
-`;
-
-const Table = styled.table`
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-`;
-
-const Th = styled.th`
-  background-color: #ffffff;
-  color: #000000;
-  padding: 15px;
-  text-align: left;
-`;
-
-const Td = styled.td`
-  padding: 15px;
-  text-align: left;
-  border: 1px solid #ddd;
-`;
 
 const ProductTable = () => {
   const products = [
@@ -42,7 +17,6 @@ const ProductTable = () => {
       specialFeatures: 'Energy Efficient, Dimmable, Waterproof, Color Changing, Water Resistant',
     }
   ];
-
 
   return (
     <TableContainer>
@@ -66,18 +40,9 @@ const ProductTable = () => {
         <tbody>
           {products.map((product, index) => (
             <tr key={index}>
-              <Td>{product.model}</Td>
-              <Td>{product.title}</Td>
-              <Td>{product.colors}</Td>
-              <Td>{product.length}</Td>
-              <Td>{product.controlMethods}</Td>
-              <Td>{product.voiceControl}</Td>
-              <Td>{product.waterproof}</Td>
-              <Td>{product.voltage}</Td>
-              <Td>{product.wattage}</Td>
-              <Td>{product.lumens}</Td>
-              <Td>{product.appConnectivity}</Td>
-              <Td>{product.specialFeatures}</Td>
+              {Object.values(product).map((value, index) => (
+                <Td key={index}>{value}</Td>
+              ))}
             </tr>
           ))}
         </tbody>
@@ -87,3 +52,28 @@ const ProductTable = () => {
 };
 
 export default ProductTable;
+
+
+const TableContainer = styled.div`
+  overflow-x: auto;
+  margin: 20px;
+`;
+
+const Table = styled.table`
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+`;
+
+const Th = styled.th`
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  text-align: left;
+`;
+
+const Td = styled.td`
+  padding: 12px; /* Adjusted padding */
+  text-align: left;
+  border: 1px solid #ddd;
+`;
