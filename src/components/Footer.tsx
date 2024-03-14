@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Button from '../common/Button';
 
 const FooterContainer = styled.footer`
   padding: 15px;
@@ -30,7 +31,7 @@ const Title = styled.h2`
 const Footer = () => {
   return (
     <FooterContainer>
-      <Title>Contact Us</Title>
+      <Button>Contact Us</Button>
       <ContactInfo>
         <PhoneNumber>Phone: (825) 973-7707</PhoneNumber>
         <Email>Email: admin@relightgp.ca</Email>
