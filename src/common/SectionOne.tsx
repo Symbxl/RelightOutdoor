@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SectionOne = () => {
-  const videoId = 'AtptIYsujRg';
+  const videoId = 'cmslCU53Xnk';
 
   return (
     <VideoContainer>

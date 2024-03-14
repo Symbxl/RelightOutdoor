@@ -9,7 +9,7 @@ const Header = () => {
         <Description>
           Have everyones face light up when viewing your beautiful glowing home. Request a quote and light up your home today!</Description>
         <Button height="50px" width="200px">
-          Get a Quote
+          Request a Quote
         </Button>
       </Container>
       <Image src="https://i.imgur.com/dAHWvFV.jpeg" alt="Illuminated Home" />

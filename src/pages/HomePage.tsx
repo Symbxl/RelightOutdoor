@@ -5,6 +5,8 @@ import SectionFour from "../common/SectionFour";
 import DisplayServices from "../content/DisplayServices";
 import Table from "../components/Table";
 import Header from "../components/Header";
+import Button from "../common/Button";
+
 const HomePage = () => {
   return <>
     <Header />
