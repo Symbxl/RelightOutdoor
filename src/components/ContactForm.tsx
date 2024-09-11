@@ -12,7 +12,7 @@ interface FormData {
 const ContactForm = () => {
   const { handleSubmit, control } = useForm<FormData>();
 
-  const api = 'https://decisive-balance-1f853ee862.strapiapp.com/api/contacts';
+  const api = 'https://decisive-balance-1f853ee862.strapiapp.com/api/client';
 
   const onSubmit = async (data: FormData) => {
     try {
